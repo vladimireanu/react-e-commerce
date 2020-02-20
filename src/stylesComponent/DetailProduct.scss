@@ -1,0 +1,41 @@
+section {
+  height: 100%;
+  background-color: white;
+  padding: 10px 0 10px 0;
+
+  .detailContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    height: 90vh;
+    padding-left: 5%;
+    .detailImg{
+      height: 50vh;
+      width: 50vh;
+      img{
+        height: 100%;
+        width: 100%;
+      }
+    }
+
+    .detailTitle {
+      padding: 5rem;
+
+      h2 {
+        text-align: center;
+        font-weight: 900;
+      }
+    }
+
+
+    .detailButtons {
+      display: inline-block;
+
+    }
+
+
+    }
+  }

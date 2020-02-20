@@ -1,0 +1,48 @@
+.button1 {
+width: inherit;
+  height: 23px;
+  background: cornflowerblue;
+  border: 1px solid cornflowerblue;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 5px;
+  padding: 0 5px 0 5px;
+  font-weight: bolder;
+  &:hover{
+    background: blue;
+    color: white;
+    height: 23px;
+    width: inherit;
+  }
+  &:focus {
+    outline: none;
+  }
+  img{
+    height: 15px;
+    width: 20px;
+  }
+}
+.button2{
+  width: inherit;
+  height: 23px;
+  background: dodgerblue;
+  border: transparent;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+  margin: 5px;
+  padding: 0 5px 0 5px;
+  font-weight: bolder;
+  &:hover{
+    background: blue;
+    color: white;
+    height: 23px;
+    width: inherit;
+  }
+  &:focus {
+    outline: none;
+  }
+}
