@@ -5,12 +5,12 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(0,0,1,0.3);
+  background: rgba(0,0,1,0.5);
   display: flex;
   justify-content: center;
   align-items: center;
  #modal{
-   background: white;
+   background-image: linear-gradient(to right top, #cccfd5, #d9dbdf, #e6e7ea, #f3f3f4, #ffffff);
    border-radius: 5px;
 img{
   height: 65%;

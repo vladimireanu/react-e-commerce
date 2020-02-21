@@ -1,7 +1,8 @@
 import React from 'react';
 import {Link} from "react-router-dom";
+import PayPalButton from "../PayPalButton";
 
-function BasketTotals({value}) {
+function BasketTotals({value,history}) {
 const {basketSubTotal, basketTax, basketTotal, clearBasket} =value;
         return (
             <>
@@ -31,6 +32,9 @@ const {basketSubTotal, basketTax, basketTotal, clearBasket} =value;
                                 </span>
                                 <strong>{basketTotal}</strong>
                             </h4>
+                            <PayPalButton total={basketTotal} clearBasket={clearBasket} history={history} />
+
+
                         </div>
                     </div>
                 </div>

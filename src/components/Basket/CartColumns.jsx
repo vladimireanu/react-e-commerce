@@ -3,6 +3,7 @@ import React from 'react';
 function CartColumns() {
 
         return (
+            <div className={'grid'}>
             <div className={'container-fluid text-center'}>
                 <div className="row">
                     <div className="col-10 mx-auto col-lg-2">
@@ -24,6 +25,7 @@ function CartColumns() {
                         <p>Total</p>
                     </div>
                 </div>
+            </div>
             </div>
         );
     }

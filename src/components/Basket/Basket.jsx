@@ -17,7 +17,7 @@ class Basket extends Component {
                                 <>
                                     <CartColumns/>
                                     <BasketList value={value}/>
-                                    <BasketTotals value={value}/>
+                                    <BasketTotals value={value} history={this.props.history}/>
                                 </>)
                         } else {
                             return <EmptyBasket/>

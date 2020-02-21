@@ -15,8 +15,6 @@ class Details extends Component {
                             <div className={'detailContainer'}>
                                 <div className={'detailTitle'}>
                                     <span>{title}</span>
-                                </div>
-                                <div className={'detailImg'}>
                                     <img src={img} alt={title}/>
                                 </div>
                                 <div className={'detailInfo'}>
@@ -25,7 +23,7 @@ class Details extends Component {
                                     <p>{info}</p>
                                 </div>
                                 <div className={'detailButtons'}>
-                                    <button className={'button1'} disabled={inCart?true:false} onClick={() => {
+                                    <button className={'button1'} disabled={inCart ? true : false} onClick={() => {
                                         value.addToCart(id);
                                         value.openModal(id);
                                     }}>

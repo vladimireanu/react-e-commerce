@@ -6,11 +6,13 @@ class Navbar extends Component {
     render() {
 
         return (
+
+
             <nav>
                 <div className="contain">
                     <div className="navButtons">
                         <Link to={'/'}>
-                            <h2>MegaDiscount</h2>
+                            <h2>Mega<br/>Discount</h2>
                         </Link>
                     </div>
                     <div className="buttons3">
