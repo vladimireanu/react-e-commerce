@@ -5,6 +5,7 @@ nav {
   background-image: url("/img/network.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+
   @media only screen and (max-width: 540px) {
     height: 55vh;
   }
@@ -14,8 +15,13 @@ nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    h2{
+      position: absolute;
+      top: 1px;
+      left: 10px;
+    }
     @media only screen and (max-width: 540px) {
-      @media only screen and (max-width: 540px) {
+
         justify-content: center;
         align-items: center;
         flex-direction: column;
@@ -108,4 +114,4 @@ nav {
       outline: none;
     }
   }
-}
+

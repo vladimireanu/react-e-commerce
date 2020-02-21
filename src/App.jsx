@@ -32,7 +32,6 @@ class App extends React.Component {
                     <Route component={Default}/>
                 </Switch>
                 <Modal/>
-
             </>
         );
     }

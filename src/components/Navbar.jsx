@@ -17,22 +17,22 @@ class Navbar extends Component {
                     </div>
                     <div className="buttons3">
                         <Link to={'/'}>
-                            <h4>Products</h4>
+                            <h4>Home</h4>
                         </Link>
                         <Link to={'/'}>
                             <h4>Products</h4>
                         </Link>
                         <Link to={'/'}>
-                            <h4>Products</h4>
+                            <h4>Gallery</h4>
                         </Link>
                         <Link to={'/'}>
-                            <h4>Products</h4>
+                            <h4>Blog</h4>
                         </Link>
                         <Link to={'/'}>
-                            <h4>Products</h4>
+                            <h4>Career</h4>
                         </Link>
                         <Link to={'/'}>
-                            <h4>Products</h4>
+                            <h4>About</h4>
                         </Link>
                         <Link to={'/basket'}>
                             <button className={'basketButton'}>
