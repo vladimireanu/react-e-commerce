@@ -2,7 +2,7 @@ export const storeProducts = [
     {
         id: 1,
         title: 'Apple iPhone XI pro Max',
-        img: '/img/apple-iphone-pro-10.jpg',
+        img: '/img/apple-iphone-pro-10.png',
         img2: '/img/Screen.png',
         price: 999,
         company: 'APPLE',
@@ -31,7 +31,7 @@ export const storeProducts = [
     {
         id: 2,
         title: 'Samsung S20 Ultra',
-        img: '/img/samsung-galaxy-s20-ultra.jpg',
+        img: '/img/samsung-galaxy-s20-ultra.png',
         img2: '/img/Screen.png',
         price: 1299,
         company: 'SAMSUNG',
@@ -60,7 +60,7 @@ export const storeProducts = [
   {
     id: 3,
     title: 'Asus Rog Phone2',
-    img: '/img/asus-rog-phone2.jpg',
+    img: '/img/asus-rog-phone2.png',
       img2: '/img/Screen.png',
     price: 799,
     company: 'ASUS',
@@ -89,7 +89,7 @@ export const storeProducts = [
   {
     id: 4,
     title: 'Google Pixel 4XL',
-    img: '/img/google-pixel-4-xl.jpg',
+    img: '/img/google-pixel-4-xl.png',
       img2: '/img/Screen.png',
     price: 899,
     company: 'GOOGLE',
@@ -118,7 +118,7 @@ export const storeProducts = [
   {
     id: 5,
     title: 'Huawei Mate X',
-    img: '/img/huawei-mate-x.jpg',
+    img: '/img/huawei-mate-x.png',
       img2: '/img/Screen.png',
     price: 1499,
     company: 'HUAWEI',
@@ -147,7 +147,7 @@ export const storeProducts = [
   {
     id: 6,
     title: 'Motorola RAZR 2019',
-    img: '/img/motorola-razr-2019.jpg',
+    img: '/img/motorola-razr-2019.png',
       img2: '/img/Screen.png',
     price: 1249,
     company: 'LENOVO',
@@ -176,7 +176,7 @@ export const storeProducts = [
   {
     id: 7,
     title: 'Nokia 9 PureView',
-    img: '/img/nokia-9-pureview.jpg',
+    img: '/img/nokia-9-pureview.png',
       img2: '/img/Screen.png',
     price: 659,
     company: 'HDM GLOBAL',
@@ -205,7 +205,7 @@ export const storeProducts = [
   {
     id: 8,
     title: 'OnePlus 7T Pro',
-    img: '/img/oneplus-7t-pro.jpg',
+    img: '/img/oneplus-7t-pro.png',
       img2: '/img/Screen.png',
     price: 739,
     company: 'ONEPLUS',
@@ -234,7 +234,7 @@ export const storeProducts = [
   {
     id: 9,
     title: 'Samsung Note 10 Plus',
-    img: '/img/samsung-galaxy-note10-plus-black.jpg',
+    img: '/img/samsung-galaxy-note10-plus-black.png',
       img2: '/img/Screen.png',
     price: 949,
     company: 'SAMSUNG',
@@ -263,7 +263,7 @@ export const storeProducts = [
   {
     id: 10,
     title: 'Samsung S10 Plus',
-    img: '/img/samsung-galaxy-s10-plus.jpg',
+    img: '/img/samsung-galaxy-s10-plus.png',
       img2: '/img/Screen.png',
     price: 899,
     company: 'SAMSUNG',
@@ -292,7 +292,7 @@ export const storeProducts = [
   {
     id: 11,
     title: 'Samsung S20 Plus',
-    img: '/img/samsung-galaxy-s20-plus.jpg',
+    img: '/img/samsung-galaxy-s20-plus.png',
       img2: '/img/Screen.png',
     price: 1099,
     company: 'SAMSUNG',
@@ -321,7 +321,7 @@ export const storeProducts = [
   {
     id: 12,
     title: 'Xiaomi Mi10 Pro',
-    img: '/img/xiaomi-mi-10-pro-5g.jpg',
+    img: '/img/xiaomi-mi-10-pro-5g.png',
       img2: '/img/Screen.png',
     price: 729,
     company: 'XIAOMI',
@@ -351,8 +351,7 @@ export const storeProducts = [
 export const detailProduct = {
     id: 1,
     title: 'Apple iPhone XI pro Max',
-    img: '/img/apple-iphone-pro-10.jpg',
-    img2: '/img/Screen.png',
+    img: '/img/apple-iphone-pro-10.png',
     price: 1000,
     company: 'APPLE',
     inCart: false,

@@ -1,11 +1,10 @@
 .cardProducts {
   height: 100%;
-  border: 1px solid darkgrey;
   border-radius: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-image: linear-gradient(to right top, #cccfd5, #d9dbdf, #e6e7ea, #f3f3f4, #ffffff);
+  background: linear-gradient(to right, #d3cce3, #e9e4f0);
   color: dodgerblue;
   font-size: 1.5rem;
 
@@ -55,13 +54,6 @@
       margin-bottom: 50px;
       &:hover{
         background: blue;
-        color: white;
-        height: 30px;
-        width: 70px;
-
-      }
-      &:focus {
-        outline: none;
       }
       img{
         height: 15px;
@@ -74,7 +66,7 @@
   padding: 0 3rem 5rem 3rem;
 }
 .py-5{
-  background-image: linear-gradient(to right top, #1661d1, #4157d4, #614bd4, #7d38d0, #9811c8);
+  background: linear-gradient(to right, #ffefba, #ffffff);
 
 
 }

@@ -10,9 +10,11 @@ import Modal from "./components/Modal";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 import 'react-bootstrap/dist/react-bootstrap';
-import '@fortawesome/fontawesome-free/css/all.css'
+import '@fortawesome/fontawesome-free/css/all.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import {CarouselItem} from "react-bootstrap";
+import CarouselImages from "./components/CarouselImages";
 
 class App extends React.Component {
     componentDidMount() {
@@ -26,7 +28,14 @@ class App extends React.Component {
             <>
                 <Navbar/>
                 <Switch>
-                    <Route exact path={'/'} component={ProductList}/>
+                    <Route exact path= '/'
+                           render = { () => (
+                               <>
+                               <CarouselImages />
+                               <ProductList />
+                               </>
+                           )}
+                           />
                     <Route path={'/details'} component={Details}/>
                     <Route path={'/basket'} component={Basket}/>
                     <Route component={Default}/>
