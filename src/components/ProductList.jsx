@@ -7,7 +7,7 @@ class ProductList extends Component {
     render() {
         return (
             <>
-                <div className={'py-5'}>
+                <div className={'py-5'} id={'product-list'}>
                     <div className={'container'}>
                         <div className="row " data-aos="zoom-in-down">
                             <ProductConsumer>

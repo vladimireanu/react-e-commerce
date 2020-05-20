@@ -8,14 +8,14 @@ import BasketTotals from'./BasketTotals'
 class Basket extends Component {
     render() {
         return (
-            <section>
+            <section className={'basket'}>
                 <ProductConsumer>
                     {value => {
                         const {cart} = value;
                         if (cart.length > 0) {
                             return (
                                 <>
-                                    <CartColumns/>
+                                    <CartColumns />
                                     <BasketList value={value}/>
                                     <BasketTotals value={value} history={this.props.history}/>
                                 </>)

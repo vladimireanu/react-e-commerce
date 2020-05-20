@@ -9,7 +9,6 @@ class Details extends Component {
             <ProductConsumer>
                 {value => {
                     const {title, id, info, company, price, img, inCart} = value.detailProduct;
-                    console.log(info);
                     return (
                         <section>
                             <div className={'detailContainer'}>

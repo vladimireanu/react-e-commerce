@@ -3,8 +3,8 @@ import React from 'react';
 function CartColumns() {
 
         return (
-            <div className={'grid'}>
-            <div className={'container-fluid text-center'}>
+           
+            <div className={'container-fluid text-center d-none d-lg-block'}>
                 <div className="row">
                     <div className="col-10 mx-auto col-lg-2">
                         <p>Products</p>
@@ -26,7 +26,7 @@ function CartColumns() {
                     </div>
                 </div>
             </div>
-            </div>
+           
         );
     }
 

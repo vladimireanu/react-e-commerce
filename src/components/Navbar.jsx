@@ -19,26 +19,10 @@ class Navbar extends Component {
                         <Link to={'/'}>
                             <h4>Home</h4>
                         </Link>
-                        <Link to={'/'}>
-                            <h4>Products</h4>
-                        </Link>
-                        <Link to={'/'}>
-                            <h4>Gallery</h4>
-                        </Link>
-                        <Link to={'/'}>
-                            <h4>Blog</h4>
-                        </Link>
-                        <Link to={'/'}>
-                            <h4>Career</h4>
-                        </Link>
-                        <Link to={'/'}>
-                            <h4>About</h4>
-                        </Link>
                         <Link to={'/basket'}>
                             <button className={'basketButton'}>
                                 <i className="fas fa-shopping-cart"></i>
                             </button>
-
                         </Link>
                     </div>
                 </div>
